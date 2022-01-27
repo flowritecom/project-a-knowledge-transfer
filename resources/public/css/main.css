@@ -1,0 +1,72 @@
+.statement {
+    color: #ffc107;
+}
+
+.issue {
+    color: #546e7a;
+}
+
+.pro {
+    color: #81c784;
+}
+
+.con {
+    color: #f44336;
+}
+
+.mr {
+    margin-right: 0.5em;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #F05D5E;
+}
+.beige {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #D8A47F;
+}
+.subtitle {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #D8A47F;
+}
+.offwhite {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #E7ECEF;
+}
+.link {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #0F7173;
+}
+
+.link-ending {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #0F7173;
+}
+
+.names {
+    font-size: 0.6em;
+}
+
+.bg {
+    background-color: #272932;
+}
+
+
+.row-div {
+    padding: 0;
+}
+
+.itemlist {
+    text-align: left;
+}
+
+.old {
+    opacity: 0.5;
+}
