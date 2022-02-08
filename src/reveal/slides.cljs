@@ -13,6 +13,43 @@
 
 (def slide-2
   [:section
+   [:p.subtitle "Agenda"]
+   [:div.row
+    [:div.offset-2.row-div.itemlist
+     [:p "🔸 Intro to us and Flowrite & short demo"]
+     [:p "🔸 Overview of the stack"]
+     [:p "🔸 Why do we have challenges with environments?"]
+     [:p "🔸 Solving the multiple environments challenge"]
+     [:p "🔸 Deployment overview and future topics"]
+     [:p "🔸 Questions and offtopic"]]]])
+
+(def slide-20
+  [:section
+   [:div.col-8.offset-2
+    [:p.subtitle "You can follow along with the screenshare only, BUT you can also clone the code and tinker with it"]]
+   [:div.col-12
+    [:img {:src "img/showmethecode.jpg"}]]
+   [:div.row
+    [:div.col-6.row-div
+     [:a {:href "https://github.com/flowritecom/project-a-knowledge-transfer-skeleton-code"} "Python mock app"]]
+    [:div.col-6.row-div
+     [:a {:href "https://github.com/flowritecom/project-a-knowledge-transfer-vars-repo"} "Mock variable store"]]]])
+
+
+(def slide-200
+  [:section
+   [:p.subtitle "Overview of the stack"]
+   [:a.link {:href "https://whimsical.com/architecture-cloud-VCHYDubANwtU97f94jGRag"} "Link to Whimsical flowchart"]])
+
+
+(def slide-21
+  [:section
+   [:p.subtitle "In rapid product development with both AI and UX, we often need many prototypes of possible releases"]
+   [:div.col-10.offset-1
+    [:img {:src "img/ai_engines.png"}]]])
+
+(def slide-22
+  [:section
    [:p.subtitle "With infrastructure-as-code, environment variables are the main input for spinning up any given structure"]
    [:div.row
     [:div.col-4.row-div
@@ -161,26 +198,28 @@
    [:div.col-12
     [:img {:src "img/entrypoint.png"}]]])
 
+
 (def slide-18
   [:section
-   [:p.subtitle "Welcome to jam with us, PAV Family!"]
-   [:p.names "( We'll share skeleton code and run it too!🤞)"]
-   [:div.col-12
-    [:img {:src "img/showmethecode.jpg"}]]])
+   [:p.names "Going a bit deeper into the deployment"]
+   [:a.link {:href "https://whimsical.com/containerized-deploy-LwDiEaUAP6mBkWrc9aTZ8H"} "Whimsical flowchart (draft level)"]])
 
 (def slide-19
   [:section
    [:p.subtitle "The End"]
    [:div.col-6.offset-3
     [:img {:src "img/ending.png"}]]
-   [:a.link-ending {:href "https://github.com/flowritecom/project-a-knowledge-transfer"} "👉 slides"]
-   ])
+   [:a.link-ending {:href "https://github.com/flowritecom/project-a-knowledge-transfer"} "👉 slides"]])
 
 (defn all
   "Add here all slides you want to see in your presentation."
   []
   [slide-1
    slide-2
+   slide-20
+   slide-200
+   slide-21
+   slide-22
    slide-3
    slide-4
    slide-5
@@ -197,5 +236,4 @@
    slide-16
    slide-17
    slide-18
-   slide-19
-   ])
+   slide-19])
